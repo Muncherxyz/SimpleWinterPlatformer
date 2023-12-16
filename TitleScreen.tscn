@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1w1kabg4ama5"]
+
+[ext_resource type="Script" path="res://TitleScreen.gd" id="1_jvsna"]
+[ext_resource type="PackedScene" uid="uid://dcmigspe2im5p" path="res://Player/BG.tscn" id="2_eh7ns"]
+
+[node name="TitleScreen" type="Node2D"]
+script = ExtResource("1_jvsna")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 366.0
+offset_top = 141.0
+offset_right = 810.0
+offset_bottom = 267.0
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 368.0
+offset_top = 344.0
+offset_right = 813.0
+offset_bottom = 469.0
+text = "Quit"
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("2_eh7ns")]
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

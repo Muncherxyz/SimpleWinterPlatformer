@@ -1,0 +1,10 @@
+res://Play.gd
+res://TitleScreen.gd
+res://TitleScreen.tscn
+res://world.tscn
+res://Player/Player.tscn
+res://Player/Player.gd
+res://Player/BG.tscn
+res://Player/BG.gd
+res://Global/Game.gd
+res://Global/Util.gd

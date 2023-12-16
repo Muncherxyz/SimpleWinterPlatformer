@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://dcmigspe2im5p"]
+
+[ext_resource type="Script" path="res://Player/BG.gd" id="1_3qvbq"]
+[ext_resource type="Texture2D" uid="uid://cgyi7yf3ojegg" path="res://8bitWinterTileset/WinterTileSet/Above_sky.png" id="1_prtu4"]
+[ext_resource type="Texture2D" uid="uid://bwad81bqqnehs" path="res://8bitWinterTileset/WinterTileSet/Above_clouds.png" id="2_y6wyp"]
+[ext_resource type="Texture2D" uid="uid://gnhs6rlnmqpa" path="res://8bitWinterTileset/WinterTileSet/Above_MTN.png" id="3_8rmf1"]
+[ext_resource type="Texture2D" uid="uid://bhidpkpqw4dip" path="res://8bitWinterTileset/WinterTileSet/Above_Trees.png" id="4_stfbp"]
+[ext_resource type="Texture2D" uid="uid://cgcwwth8rms6a" path="res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png" id="5_kxukp"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+script = ExtResource("1_3qvbq")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="AboveSky" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576, 324)
+scale = Vector2(1.8, 1.0125)
+texture = ExtResource("1_prtu4")
+
+[node name="AboveClouds" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576, 332)
+scale = Vector2(1.8, 1.0375)
+texture = ExtResource("2_y6wyp")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="AboveMtn" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(576, 328)
+scale = Vector2(1.8, 1)
+texture = ExtResource("3_8rmf1")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="AboveTrees" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(576, 372)
+scale = Vector2(1.8, 1.3625)
+texture = ExtResource("4_stfbp")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="AboveTreesBig" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(576, 356)
+scale = Vector2(1.8, 1.2125)
+texture = ExtResource("5_kxukp")

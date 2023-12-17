@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702759895
+::res://::1702819474
 icon.svg::CompressedTexture2D::7836083910498936503::1702750876::1702750882::1::::<><>::
-TitleScreen.gd::GDScript::-1::1702751591::0::1::::<>Node2D<>::
-TitleScreen.tscn::PackedScene::4258343430478419742::1702759397::0::1::::<><>::res://TitleScreen.gd<>uid://dcmigspe2im5p::::res://Player/BG.tscn
-world.tscn::PackedScene::5947813174963195679::1702759397::0::1::::<><>::uid://dvefbh6o20ng0::::res://Player/Player.tscn<>uid://cp25fxgls2q28::::res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png<>res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png
+README.md::TextFile::-1::1702761465::0::1::::<><>::
+TitleScreen.gd::GDScript::-1::1702761166::0::1::::<>Node2D<>::
+TitleScreen.tscn::PackedScene::4258343430478419742::1702761275::0::1::::<><>::res://TitleScreen.gd<>uid://dcmigspe2im5p::::res://Player/BG.tscn
+world.tscn::PackedScene::5947813174963195679::1702761167::0::1::::<><>::uid://dvefbh6o20ng0::::res://Player/Player.tscn<>uid://cp25fxgls2q28::::res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png<>res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png
 ::res://8bitWinterTileset/::1702751664
 ::res://8bitWinterTileset/2 Owlet_Monster/::1702751664
 Double_Jump_Dust_5.png::CompressedTexture2D::232287181559611429::1702751664::1702751664::1::::<><>::
@@ -32,10 +33,11 @@ Above_sky.png::CompressedTexture2D::5244063646234604106::1702751664::1702751664:
 Above_Trees.png::CompressedTexture2D::2894467098241756211::1702751664::1702751664::1::::<><>::
 Above_TreesBig.png::CompressedTexture2D::5199479256309149750::1702751664::1702751664::1::::<><>::
 OutDoors Tileset.png::CompressedTexture2D::5883243877899624399::1702751664::1702751664::1::::<><>::
-::res://Global/::1702759895
-Game.gd::GDScript::-1::1702759943::0::1::::<>Node<>::
-::res://Player/::1702759397
+::res://Global/::1702761140
+Game.gd::GDScript::-1::1702761012::0::1::::<>Node<>::
+Util.gd::GDScript::-1::1702761140::0::1::::<>Node<>::
+::res://Player/::1702761167
 BG.gd::GDScript::-1::1702756435::0::1::::<>ParallaxBackground<>::
 BG.tscn::PackedScene::7324909690920167275::1702756661::0::1::::<><>::res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png
-Player.gd::GDScript::-1::1702759397::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::8641791065477522321::1702759397::0::1::::<><>::res://Player/Player.gd<>uid://bau7ypu3c3o1k::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Hurt_4.png<>uid://cy4wr378hl3bx::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://dm3sgxugwj7tb::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://cru3k3a1p2yql::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Run_6.png
+Player.gd::GDScript::-1::1702761012::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::8641791065477522321::1702761167::0::1::::<><>::res://Player/Player.gd<>uid://bau7ypu3c3o1k::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Hurt_4.png<>uid://cy4wr378hl3bx::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://dm3sgxugwj7tb::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://cru3k3a1p2yql::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Run_6.png

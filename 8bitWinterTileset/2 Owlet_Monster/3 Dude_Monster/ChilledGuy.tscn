@@ -1,0 +1,196 @@
+[gd_scene load_steps=28 format=3 uid="uid://dxjhupmfvib63"]
+
+[ext_resource type="Texture2D" uid="uid://do3kbwey8eg8l" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Death_8.png" id="1_5gc7o"]
+[ext_resource type="Script" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd" id="1_fkj0q"]
+[ext_resource type="Texture2D" uid="uid://dgbk8yq23uqlj" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Idle_4.png" id="2_3pqvf"]
+[ext_resource type="Texture2D" uid="uid://raagsne04f4g" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Run_6.png" id="3_cva61"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3qhij"]
+size = Vector2(16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvdmd"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfqh1"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3g3hx"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1ujt"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybdca"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c7j33"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6702r"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w36rw"]
+atlas = ExtResource("1_5gc7o")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pvpm"]
+atlas = ExtResource("2_3pqvf")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rcnn"]
+atlas = ExtResource("2_3pqvf")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ildp"]
+atlas = ExtResource("2_3pqvf")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qgsc"]
+atlas = ExtResource("2_3pqvf")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xiry"]
+atlas = ExtResource("3_cva61")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8q4x"]
+atlas = ExtResource("3_cva61")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nffax"]
+atlas = ExtResource("3_cva61")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2kk1"]
+atlas = ExtResource("3_cva61")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k0l5s"]
+atlas = ExtResource("3_cva61")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l0qhl"]
+atlas = ExtResource("3_cva61")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ii4f3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvdmd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfqh1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3g3hx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1ujt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybdca")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c7j33")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6702r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w36rw")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pvpm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rcnn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ildp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qgsc")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xiry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8q4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nffax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2kk1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k0l5s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l0qhl")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_naf2c"]
+radius = 120.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e4c1h"]
+size = Vector2(16, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ppsy"]
+size = Vector2(32, 20)
+
+[node name="ChilledGuy" type="CharacterBody2D"]
+script = ExtResource("1_fkj0q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_3qhij")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ii4f3")
+animation = &"Idle"
+metadata/_edit_lock_ = true
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+shape = SubResource("CircleShape2D_naf2c")
+
+[node name="PlayerDeath" type="Area2D" parent="."]
+
+[node name="HitBox" type="CollisionShape2D" parent="PlayerDeath"]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_e4c1h")
+
+[node name="PlayerColiision" type="Area2D" parent="."]
+
+[node name="EnemyCollision" type="CollisionShape2D" parent="PlayerColiision"]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_7ppsy")
+
+[connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
+[connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="PlayerDeath" to="." method="_on_player_death_body_entered"]
+[connection signal="body_entered" from="PlayerColiision" to="." method="_on_player_coliision_body_entered"]

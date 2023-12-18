@@ -1,3 +1,9 @@
+Node2D
+Node
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+CharacterBody2D
 Label
 CanvasLayer
 TileMap
@@ -6,8 +12,4 @@ ParallaxBackground
 AnimationPlayer
 Camera2D
 Panel
-CollisionShape2D
 StaticBody2D
-AnimatedSprite2D
-CharacterBody2D
-Button

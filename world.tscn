@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cq0fu414lqwo2"]
+[gd_scene load_steps=13 format=3 uid="uid://cq0fu414lqwo2"]
 
 [ext_resource type="PackedScene" uid="uid://dvefbh6o20ng0" path="res://Player/Player.tscn" id="1_27vin"]
 [ext_resource type="Texture2D" uid="uid://cp25fxgls2q28" path="res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png" id="1_t3ald"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://gnhs6rlnmqpa" path="res://8bitWinterTileset/WinterTileSet/Above_MTN.png" id="5_7qnap"]
 [ext_resource type="Texture2D" uid="uid://bhidpkpqw4dip" path="res://8bitWinterTileset/WinterTileSet/Above_Trees.png" id="6_0m352"]
 [ext_resource type="Texture2D" uid="uid://cgcwwth8rms6a" path="res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png" id="7_yhgup"]
+[ext_resource type="PackedScene" uid="uid://c4nj73ol3elw7" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/enemy.tscn" id="9_3c3co"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kckev"]
 texture = ExtResource("1_t3ald")
@@ -3393,9 +3394,6 @@ position = Vector2(576, 356)
 scale = Vector2(1.8, 1.2125)
 texture = ExtResource("7_yhgup")
 
-[node name="Player" parent="." instance=ExtResource("1_27vin")]
-position = Vector2(16, 559)
-
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="HP" type="Label" parent="UI"]
@@ -3407,3 +3405,12 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 24
 text = "HP"
 script = SubResource("GDScript_iy1jy")
+
+[node name="Player" type="Node" parent="."]
+
+[node name="Player" parent="Player" instance=ExtResource("1_27vin")]
+position = Vector2(22, 558)
+
+[node name="mobs" type="Node2D" parent="Player"]
+
+[node name="guy" parent="Player/mobs" instance=ExtResource("9_3c3co")]

@@ -1,5 +1,6 @@
 res://TitleScreen.tscn
 res://world.tscn
 res://Player/Player.tscn
-res://Global/Util.gd
-res://TitleScreen.gd
+res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/enemy.gd
+res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/enemy.tscn
+res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/guy.tscn

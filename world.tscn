@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cq0fu414lqwo2"]
+[gd_scene load_steps=17 format=3 uid="uid://cq0fu414lqwo2"]
 
 [ext_resource type="PackedScene" uid="uid://dvefbh6o20ng0" path="res://Player/Player.tscn" id="1_27vin"]
 [ext_resource type="Texture2D" uid="uid://cp25fxgls2q28" path="res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png" id="1_t3ald"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://dxjhupmfvib63" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn" id="9_a6yja"]
 [ext_resource type="PackedScene" uid="uid://btog3vj1untii" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.tscn" id="10_34kc1"]
 [ext_resource type="Script" path="res://Collectables.gd" id="10_a6f55"]
+[ext_resource type="PackedScene" uid="uid://c8ley0vjhne3" path="res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/NewPink.tscn" id="13_wwwvl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kckev"]
 texture = ExtResource("1_t3ald")
@@ -3485,7 +3486,10 @@ position = Vector2(22, 558)
 [node name="Mobs" type="Node2D" parent="."]
 
 [node name="ChilledGuy" parent="Mobs" instance=ExtResource("9_a6yja")]
-position = Vector2(234, 558)
+position = Vector2(3190, 248)
+
+[node name="ChilledGuy5" parent="Mobs" instance=ExtResource("9_a6yja")]
+position = Vector2(207, 560)
 
 [node name="ChilledGuy2" parent="Mobs" instance=ExtResource("9_a6yja")]
 position = Vector2(2063, 409)
@@ -3495,6 +3499,9 @@ position = Vector2(1548, 552)
 
 [node name="ChilledGuy4" parent="Mobs" instance=ExtResource("9_a6yja")]
 position = Vector2(1133, 553)
+
+[node name="ChilledGuy6" parent="Mobs" instance=ExtResource("13_wwwvl")]
+position = Vector2(636, 560)
 
 [node name="Collectables" type="Node2D" parent="."]
 script = ExtResource("10_a6f55")

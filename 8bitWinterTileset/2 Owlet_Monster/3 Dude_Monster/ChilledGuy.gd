@@ -16,6 +16,7 @@ func _physics_process(delta):
 		if get_node("AnimatedSprite2D").animation != "Death":
 			get_node("AnimatedSprite2D").play("Run")
 			player = get_node("../../Player/Player")
+			print("player: " + player.to_string())
 			var direction = (player.position - self.position).normalized()
 			if direction.x > 0:
 				get_node("AnimatedSprite2D").flip_h = false
@@ -33,6 +34,7 @@ func _physics_process(delta):
 func _on_player_detection_body_entered(body):
 	if body.name == "Player":
 		chase = true
+		print("Chilled: Chasing now.")
 
 
 
@@ -40,7 +42,7 @@ func _on_player_detection_body_entered(body):
 func _on_player_detection_body_exited(body):
 	if body.name == "Player":
 		chase = false
-
+		print("Chilled: Chasing stopped")
 
 func _on_player_death_body_entered(body):
 	if body.name == "Player":

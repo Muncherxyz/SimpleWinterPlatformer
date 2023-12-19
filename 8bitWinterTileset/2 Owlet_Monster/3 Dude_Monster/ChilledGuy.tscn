@@ -156,21 +156,22 @@ animations = [{
 radius = 120.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e4c1h"]
-size = Vector2(16, 10)
+size = Vector2(21, 12.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7ppsy"]
-size = Vector2(32, 20)
+size = Vector2(21, 15)
 
 [node name="ChilledGuy" type="CharacterBody2D"]
 script = ExtResource("1_fkj0q")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
+visible = false
+position = Vector2(-4, 8)
 shape = SubResource("RectangleShape2D_3qhij")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ii4f3")
-animation = &"Idle"
+animation = &"Run"
 metadata/_edit_lock_ = true
 
 [node name="PlayerDetection" type="Area2D" parent="."]
@@ -179,16 +180,18 @@ metadata/_edit_lock_ = true
 shape = SubResource("CircleShape2D_naf2c")
 
 [node name="PlayerDeath" type="Area2D" parent="."]
+visible = false
 
 [node name="HitBox" type="CollisionShape2D" parent="PlayerDeath"]
-position = Vector2(0, -5)
+position = Vector2(-2.5, -5.75)
 shape = SubResource("RectangleShape2D_e4c1h")
 
 [node name="PlayerColiision" type="Area2D" parent="."]
 
 [node name="EnemyCollision" type="CollisionShape2D" parent="PlayerColiision"]
-position = Vector2(0, 8)
+position = Vector2(-2.5, 8.5)
 shape = SubResource("RectangleShape2D_7ppsy")
+metadata/_edit_lock_ = true
 
 [connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]

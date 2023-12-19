@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703002317
+::res://::1703007576
 Collectables.gd::GDScript::-1::1702946036::0::1::::<>Node2D<>::
 icon.svg::CompressedTexture2D::7836083910498936503::1702860052::1702860119::1::::<><>::
-README.md::TextFile::-1::1702946036::0::1::::<><>::
 PinkGuy.gd::GDScript::-1::1703001733::0::1::::<>CharacterBody2D<>::
-PinkGuy.tscn::PackedScene::1281641941476179805::1703002317::0::1::::<><>::uid://dc1tat6dn3dy0::::res://1 Pink_Monster/Pink_Monster_Death_8.png<>res://PinkGuy.gd<>uid://cf54xh4y0n407::::res://1 Pink_Monster/Pink_Monster_Run_6.png<>uid://pngv2qaw501c::::res://1 Pink_Monster/Pink_Monster_Idle_4.png
+PinkGuy.tscn::PackedScene::1281641941476179805::1703004377::0::1::::<><>::uid://dc1tat6dn3dy0::::res://1 Pink_Monster/Pink_Monster_Death_8.png<>res://PinkGuy.gd<>uid://cf54xh4y0n407::::res://1 Pink_Monster/Pink_Monster_Run_6.png<>uid://pngv2qaw501c::::res://1 Pink_Monster/Pink_Monster_Idle_4.png
+README.md::TextFile::-1::1702946036::0::1::::<><>::
+world2.tscn::PackedScene::8664702596506188872::1703007576::0::1::::<><>::uid://cp25fxgls2q28::::res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png<>res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png<>uid://dvefbh6o20ng0::::res://Player/Player.tscn<>uid://dxjhupmfvib63::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn<>uid://c8ley0vjhne3::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/NewPink.tscn<>res://Collectables.gd<>uid://btog3vj1untii::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.tscn
 TitleScreen.gd::GDScript::-1::1702860052::0::1::::<>Node2D<>::
-TitleScreen.tscn::PackedScene::4258343430478419742::1703002315::0::1::::<><>::res://TitleScreen.gd<>uid://dcmigspe2im5p::::res://Player/BG.tscn
-world.tscn::PackedScene::5947813174963195679::1703002316::0::1::::<><>::uid://dvefbh6o20ng0::::res://Player/Player.tscn<>uid://cp25fxgls2q28::::res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png<>res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png<>uid://dxjhupmfvib63::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn<>uid://btog3vj1untii::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.tscn<>res://Collectables.gd<>uid://si3pqt8vtqvl::::res://PinkGuy.tscn
+TitleScreen.tscn::PackedScene::4258343430478419742::1703007573::0::1::::<><>::res://TitleScreen.gd<>uid://dcmigspe2im5p::::res://Player/BG.tscn
+world.tscn::PackedScene::5947813174963195679::1703007574::0::1::::<><>::uid://dvefbh6o20ng0::::res://Player/Player.tscn<>uid://cp25fxgls2q28::::res://8bitWinterTileset/WinterTileSet/OutDoors Tileset.png<>res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png<>uid://dxjhupmfvib63::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn<>uid://btog3vj1untii::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.tscn<>res://Collectables.gd<>uid://c8ley0vjhne3::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/NewPink.tscn
 ::res://1 Pink_Monster/::1702995362
 Double_Jump_Dust_5.png::CompressedTexture2D::3473147580973666585::1702995361::1702995362::1::::<><>::
 Pink_Monster.png::CompressedTexture2D::4716272087734221645::1702995361::1702995362::1::::<><>::
@@ -45,9 +46,9 @@ Owlet_Monster_Walk_6.png::CompressedTexture2D::5395137379972749321::1702860052::
 Rock1.png::CompressedTexture2D::8915651191418816863::1702860052::1702860052::1::::<><>::
 Rock2.png::CompressedTexture2D::3804009064668952674::1702860052::1702860052::1::::<><>::
 Walk_Run_Push_Dust_6.png::CompressedTexture2D::6874218087660963315::1702860052::1702860052::1::::<><>::
-::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/::1703002317
-ChilledGuy.gd::GDScript::-1::1703001671::0::1::::<>CharacterBody2D<>::
-ChilledGuy.tscn::PackedScene::8792646396011511150::1703002317::0::1::::<><>::uid://do3kbwey8eg8l::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Death_8.png<>res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd<>uid://dgbk8yq23uqlj::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Idle_4.png<>uid://raagsne04f4g::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Run_6.png
+::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/::1703014301
+ChilledGuy.gd::GDScript::-1::1703002980::0::1::::<>CharacterBody2D<>::
+ChilledGuy.tscn::PackedScene::8792646396011511150::1703007574::0::1::::<><>::uid://do3kbwey8eg8l::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Death_8.png<>res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd<>uid://dgbk8yq23uqlj::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Idle_4.png<>uid://raagsne04f4g::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Run_6.png
 Double_Jump_Dust_5.png::CompressedTexture2D::1016453436447448191::1702862267::1702862268::1::::<><>::
 Dude_Monster.png::CompressedTexture2D::6038970104538484532::1702862267::1702862268::1::::<><>::
 Dude_Monster_Attack1_4.png::CompressedTexture2D::5102084600637450613::1702862267::1702862268::1::::<><>::
@@ -64,13 +65,14 @@ Dude_Monster_Walk+Attack_6.png::CompressedTexture2D::1681322865400322786::170286
 Dude_Monster_Walk_6.png::CompressedTexture2D::36302935968600034::1702862267::1702862267::1::::<><>::
 enemy.gd::GDScript::-1::1702998112::0::1::::<>CharacterBody2D<>::
 guy.tscn::PackedScene::8584072937756257411::1702946036::0::1::::<><>::
-NewPink.tscn::PackedScene::209178483403063168::1703002345::0::1::::<><>::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd<>uid://do3kbwey8eg8l::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Death_8.png<>uid://dgbk8yq23uqlj::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Idle_4.png<>uid://raagsne04f4g::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Dude_Monster_Run_6.png
+NewPink.tscn::PackedScene::209178483403063168::1703007575::0::1::::<><>::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd<>uid://pngv2qaw501c::::res://1 Pink_Monster/Pink_Monster_Idle_4.png<>uid://dc1tat6dn3dy0::::res://1 Pink_Monster/Pink_Monster_Death_8.png<>uid://cf54xh4y0n407::::res://1 Pink_Monster/Pink_Monster_Run_6.png
+pixilart-drawing.png::CompressedTexture2D::7479788313988941965::1703014301::1703014302::1::::<><>::
 Rock1.png::CompressedTexture2D::7711580819739184934::1702862267::1702862267::1::::<><>::
 Rock2.png::CompressedTexture2D::547915133625061201::1702862267::1702862267::1::::<><>::
 Walk_Run_Push_Dust_6.png::CompressedTexture2D::3622993909050043348::1702862267::1702862267::1::::<><>::
-::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/::1703002316
+::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/::1703007574
 Rock.gd::GDScript::-1::1702946036::0::1::::<>Area2D<>::
-Rock.tscn::PackedScene::3749325423660662796::1703002316::0::1::::<><>::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.gd<>uid://dh4suyq3vmxa1::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Rock1.png<>uid://h2oc2a1axbgj::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Rock2.png
+Rock.tscn::PackedScene::3749325423660662796::1703007574::0::1::::<><>::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.gd<>uid://dh4suyq3vmxa1::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Rock1.png<>uid://h2oc2a1axbgj::::res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Rock2.png
 ::res://8bitWinterTileset/WinterTileSet/::1702860052
 Above_clouds.png::CompressedTexture2D::3930817693807746616::1702860052::1702860052::1::::<><>::
 Above_Full.png::CompressedTexture2D::1932647153594741357::1702860052::1702860052::1::::<><>::
@@ -83,8 +85,8 @@ OutDoors Tileset.png::CompressedTexture2D::5883243877899624399::1702860052::1702
 ::res://Global/::1702860052
 Game.gd::GDScript::-1::1702860052::0::1::::<>Node<>::
 Util.gd::GDScript::-1::1702860052::0::1::::<>Node<>::
-::res://Player/::1703002316
+::res://Player/::1703007574
 BG.gd::GDScript::-1::1702860052::0::1::::<>ParallaxBackground<>::
 BG.tscn::PackedScene::7324909690920167275::1702860052::0::1::::<><>::res://Player/BG.gd<>uid://cgyi7yf3ojegg::::res://8bitWinterTileset/WinterTileSet/Above_sky.png<>uid://bwad81bqqnehs::::res://8bitWinterTileset/WinterTileSet/Above_clouds.png<>uid://gnhs6rlnmqpa::::res://8bitWinterTileset/WinterTileSet/Above_MTN.png<>uid://bhidpkpqw4dip::::res://8bitWinterTileset/WinterTileSet/Above_Trees.png<>uid://cgcwwth8rms6a::::res://8bitWinterTileset/WinterTileSet/Above_TreesBig.png
 Player.gd::GDScript::-1::1702946036::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::8641791065477522321::1703002316::0::1::::<><>::res://Player/Player.gd<>uid://bau7ypu3c3o1k::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Hurt_4.png<>uid://cy4wr378hl3bx::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://dm3sgxugwj7tb::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://cru3k3a1p2yql::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Run_6.png
+Player.tscn::PackedScene::8641791065477522321::1703007574::0::1::::<><>::res://Player/Player.gd<>uid://bau7ypu3c3o1k::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Hurt_4.png<>uid://cy4wr378hl3bx::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://dm3sgxugwj7tb::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://cru3k3a1p2yql::::res://8bitWinterTileset/2 Owlet_Monster/Owlet_Monster_Run_6.png

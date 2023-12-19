@@ -171,7 +171,7 @@ shape = SubResource("RectangleShape2D_3qhij")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ii4f3")
-animation = &"Run"
+animation = &"Death"
 metadata/_edit_lock_ = true
 
 [node name="PlayerDetection" type="Area2D" parent="."]
@@ -180,7 +180,6 @@ metadata/_edit_lock_ = true
 shape = SubResource("CircleShape2D_naf2c")
 
 [node name="PlayerDeath" type="Area2D" parent="."]
-visible = false
 
 [node name="HitBox" type="CollisionShape2D" parent="PlayerDeath"]
 position = Vector2(-2.5, -5.75)

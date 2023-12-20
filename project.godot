@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 Game="*res://Global/Game.gd"
 Util="*res://Global/Util.gd"
 
+[editor]
+
+movie_writer/movie_file="C:/Users/christian ashley/Videos/Captures.avi"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

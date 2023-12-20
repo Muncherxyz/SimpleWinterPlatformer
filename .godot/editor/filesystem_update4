@@ -1,13 +1,7 @@
 res://TitleScreen.tscn
+res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/enemy.gd
 res://world.tscn
 res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/Collectable/Rock.tscn
-res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn
 res://Player/Player.tscn
-res://pinkguy.tscn
-res://pinkguy.gd
-res://PinkGuy.tscn
-res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/enemy.gd
-res://PinkGuy.gd
-res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.gd
+res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/ChilledGuy.tscn
 res://8bitWinterTileset/2 Owlet_Monster/3 Dude_Monster/NewPink.tscn
-res://world2.tscn
